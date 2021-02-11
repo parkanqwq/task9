@@ -8,7 +8,6 @@ public class Main {
     private static String[][] arr3 = {{"0","1","2","3"},{"0","3","2","3"},{"0","1"}};
 
     public static void main(String[] args){
-
         System.out.println();
         try {
             onlyFourArr(arr);
@@ -21,7 +20,6 @@ public class Main {
     }
 
     private static void onlyFourArr(String[][] arr) throws MyArrayDataException, MyArraySizeException {
-
         int a;
         int b;
         int sum = 0;
